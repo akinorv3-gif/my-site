@@ -1,25 +1,100 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Тест сайт</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valeriia Anisimova | Lincoln UK</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <main class="page">
-        <h1>🔥 Мой тестовый сайт</h1>
-        <p>Добавил стильный фон, карточку и место для вашей картинки. Ниже картинка, а фон можно заменить на любое своё фото.</p>
+        <section class="hero-grid">
+            <div class="hero-photo hero-photo--left">
+                <img src="photo1.jpg" alt="Elegant hair styling">
+                <span>Professional worker</span>
+            </div>
 
-        <section class="card">
-            <h2 class="card-title">Ваша картинка</h2>
-            <img src="niga.png.webp" alt="моя картинка">
+            <div class="hero-content">
+                <p class="eyebrow">Lincoln UK</p>
+                <h1>Valeriia Anisimova</h1>
+                <p class="subheading">Beauty Salon</p>
+                <p class="lead">15 years of experience in Ukraine and the USA. Luxury beauty and styling services for brides, fashion, and everyday elegance.</p>
+                <div class="hero-meta">
+                    <span>Ukraine · USA</span>
+                    <span>15 years of experience</span>
+                </div>
+                <p class="about-text">Facial cleansing procedures, and many other procedures.</p>
+            </div>
+
+            <div class="hero-photo hero-photo--right">
+                <img src="photo2.jpg" alt="Bridal beauty look">
+                <span>Clean face 100%</span>
+            </div>
         </section>
 
-        <p class="hint">Чтобы поставить своё фото на фон, замените файл <code>images/background.svg</code> или измените путь в <code>style.css</code>.</p>
+        <section class="price-list">
+            <div class="price-card">
+                <div class="price-section">
+                    <h2>Facial Treatments</h2>
+                    <div class="price-item"><span>RF Lifting</span><span>40€</span></div>
+                    <div class="price-item"><span>Face / Neck / Décolleté</span><span>50€</span></div>
+                    <div class="price-item price-note">Buy 5 sessions, get the 6th one free</div>
+                    <div class="price-item"><span>Atraumatic Facial Cleansing</span><span>30€</span></div>
+                    <div class="price-item"><span>Microdermabrasion</span><span>30€</span></div>
+                    <div class="price-item"><span>Ultrasonic Skin Hydration</span><span>30€</span></div>
+                    <div class="price-item"><span>Deep Restoration & Rejuvenation Facial</span><span>35€</span></div>
+                    <div class="price-item"><span>Nourishing Facial Treatment</span><span>35€</span></div>
+                    <div class="price-item"><span>Anti-Couperose Treatment</span><span>35€</span></div>
+                </div>
+                <div class="price-section">
+                    <h2>HydroFacial</h2>
+                    <div class="price-item"><span>HydroFacial (Face / Neck / Décolleté)</span><span>40€</span></div>
+                </div>
+            </div>
+            <div class="price-card">
+                <div class="price-section">
+                    <h2>Chemical Peels</h2>
+                    <div class="price-item"><span>Acne Peel</span><span>40€</span></div>
+                    <div class="price-item price-note">Together with Deep pore cleansing</div>
+                    <div class="price-item"><span>Post-Acne Peel</span><span>40€</span></div>
+                    <div class="price-item"><span>Lactic Peel</span><span>40€</span></div>
+                </div>
+                <div class="price-section">
+                    <h2>Body Treatments</h2>
+                    <div class="price-item"><span>Endosphères Body Therapy</span><span>40€</span></div>
+                    <div class="price-item price-note">Course of 5 sessions get the 6th one free</div>
+                    <div class="price-item"><span>Pressotherapy</span><span>20€</span></div>
+                    <div class="price-item price-note">Course of 10 sessions — 150€</div>
+                </div>
+                <div class="price-section">
+                    <h2>Waxing / Hair Removal</h2>
+                    <div class="price-item"><span>Upper Lip</span><span>5€</span></div>
+                    <div class="price-item"><span>Chin</span><span>5€</span></div>
+                    <div class="price-item"><span>Underarms</span><span>10€</span></div>
+                    <div class="price-item"><span>Arms</span><span>15€</span></div>
+                    <div class="price-item"><span>Bikini Line</span><span>15€</span></div>
+                    <div class="price-item"><span>Deep Bikini</span><span>20€</span></div>
+                    <div class="price-item"><span>Half Legs</span><span>15€</span></div>
+                    <div class="price-item"><span>Full Legs</span><span>25€</span></div>
+                    <div class="price-item"><span>Back / Chest</span><span>15€</span></div>
+                </div>
+            </div>
+        </section>
 
-        <p class="site-link">Перейти на сайт: <a href="https://akinorv3-gif.github.io/my-site" target="_blank" rel="noopener noreferrer">https://akinorv3-gif.github.io/my-site</a></p>
+        <section class="social-panel">
+            <h2>Follow us on Instagram</h2>
+            <a class="instagram-card" href="https://www.instagram.com/valeriia.aesthete?igsh=eXFvdzZzcHNkZTJq" target="_blank" rel="noopener noreferrer">
+                <div class="insta-photo">
+                    <img src="images/instagram.jpg" alt="Valeriia on Instagram">
+                </div>
+                <div class="insta-info">
+                    <p>Tap the photo to visit our Instagram and see recent beauty work.</p>
+                    <span>@valeriia.aesthete</span>
+                </div>
+            </a>
+        </section>
 
-        <footer>Сайт готов для GitHub Pages — публикуй и проверяй по ссылке.</footer>
+        <footer class="footer-note">Prices listed above for popular salon treatments. Contact us for appointments and custom packages.</footer>
     </main>
 </body>
 </html>
